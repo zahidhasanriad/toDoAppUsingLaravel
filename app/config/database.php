@@ -63,12 +63,23 @@ return array(
 			'prefix'    => '',
 		), */
 
-        'mysql' => array(
+       /* 'mysql' => array(
             'driver'    => 'mysql',
             'host'      => 'localhost',
             'database'  => 'toDoApp',
             'username'  => 'root',
             'password'  => 'laravel',
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => '',
+        ), */
+
+        'mysql' => array(
+            'driver'    => 'mysql',
+            'host'      => getenv('localhost'),
+            'database'  => getenv('toDoApp'),
+            'username'  => getenv('root'),
+            'password'  => getenv('laravel'),
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',

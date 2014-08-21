@@ -66,9 +66,9 @@ return array(
         'mysql' => array(
             'driver'    => 'mysql',
             'host'      => 'localhost',
-            'database'  => 'l4todo',
-            'username'  => 'my_username',
-            'password'  => 'my_password',
+            'database'  => 'toDoApp',
+            'username'  => 'root',
+            'password'  => 'laravel',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
